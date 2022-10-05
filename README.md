@@ -24,7 +24,7 @@ What we did above Basically, we print all strings that contain "flag." Sometimes
 
 
 
-1-  Now, we will start with the Volatility 2 tool.
+1-    we will start with the Volatility 2 tool.
 
 In order to use Volatility 2, we need to identify the OS and architecture of this memory image by using the below plugin.
 
@@ -38,7 +38,7 @@ In order to use Volatility 2, we need to identify the OS and architecture of thi
 
 We got the profile. Usually, we take the first suggested profile.
 
-2-  Now, we will scan the files to locate the physical address "offest" of that file in order to dump it 
+2-    Now, we will scan the files to locate the physical address "offest" of that file in order to dump it 
 
 
 
@@ -69,14 +69,14 @@ I have extracted it and it is protected with a password as it is shown in the be
 
 As it is mentioned in the challenge description, " I don't remember the password and saved it locally."
 
-4-  So, we will run the envars plugin to display all environment variables.
+4-   So, we will run the envars plugin to display all environment variables.
 
 
 
 <img width="855" alt="Screen Shot 1444-03-09 at 9 53 39 AM" src="https://user-images.githubusercontent.com/114960489/193998804-00fdc999-f9f4-4bf9-8809-3c7469c8c806.png">
 
 
-When the result comes up, we can see that "systemP and some random strings" were used, and it is not a windows path, so I assumed that was the password!
+5-   When the result comes up, we can see that "systemP and some random strings" were used, and it is not a windows path, so I assumed that was the password!
 
 Let's try it!
 
@@ -84,6 +84,6 @@ Let's try it!
 <img width="766" alt="Screen Shot 1444-03-09 at 10 02 59 AM" src="https://user-images.githubusercontent.com/114960489/194000271-eacaf839-3617-41f4-b5cd-6b9ea8b90865.png">
 
 
-excellent! When we open the file, we get flag.txt > open it > congratulations "YOU HAVE THE FLAG!"
+6-   excellent! When we open the file, we get flag.txt > open it > congratulations "YOU HAVE THE FLAG!"
 
 
