@@ -1,5 +1,8 @@
 # Blackhat-CTF-MEM-Forensics---Write-up
 
+  | Challenge Name: MEM
+
+
 TThis challenge was a memory dump file. ( RAW file )
 
 <img width="618" alt="Screen Shot 1444-03-09 at 8 52 23 AM" src="https://user-images.githubusercontent.com/114960489/193990638-37bb40ba-c1b6-47bf-9993-6ce71c04eb23.png">
