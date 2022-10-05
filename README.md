@@ -66,7 +66,7 @@ I have extracted it and it is protected with a password as it is shown in the be
 
 As it is mentioned in the challenge description, " I don't remember the password and saved it locally."
 
-So, we will run the envirs plugin to display all environment variables.
+So, we will run the envars plugin to display all environment variables.
 
 
 
