@@ -25,6 +25,8 @@ Now, we will start with the Volatility 2 tool.
 
 In order to use Volatility 2, we need to identify the OS and architecture of this memory image by using the below plugin.
 
+"imageinfo"
+
 
 
 <img width="841" alt="Screen Shot 1444-03-09 at 9 22 54 AM" src="https://user-images.githubusercontent.com/114960489/193994491-ee176d27-96b7-4dd2-af02-8afd0143cd20.png">
