@@ -24,7 +24,7 @@ What we did above Basically, we print all strings that contain "flag." Sometimes
 
 
 
-Now, we will start with the Volatility 2 tool.
+1-  Now, we will start with the Volatility 2 tool.
 
 In order to use Volatility 2, we need to identify the OS and architecture of this memory image by using the below plugin.
 
@@ -38,7 +38,7 @@ In order to use Volatility 2, we need to identify the OS and architecture of thi
 
 We got the profile. Usually, we take the first suggested profile.
 
-Now, we will scan the files to locate the physical address "offest" of that file in order to dump it 
+2-  Now, we will scan the files to locate the physical address "offest" of that file in order to dump it 
 
 
 
@@ -49,7 +49,7 @@ Now, we will scan the files to locate the physical address "offest" of that file
 The physical address "offset" of the "flag file" in the memory is [0x000000001bbf9c0].
 
 
-In order to extract/dump the file and save it on the desktop, we will use the following:
+3-  In order to extract/dump the file and save it on the desktop, we will use the following:
 
 
 
@@ -69,7 +69,7 @@ I have extracted it and it is protected with a password as it is shown in the be
 
 As it is mentioned in the challenge description, " I don't remember the password and saved it locally."
 
-So, we will run the envars plugin to display all environment variables.
+4-  So, we will run the envars plugin to display all environment variables.
 
 
 
