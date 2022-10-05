@@ -8,8 +8,7 @@ The Challenge was a memory dump file. ( RAW file )
 
 So, the first thing will kick off to looks for any printable, texetual strings in the RAW file by using [ strings command ] 
 
-<img width="242" alt="image" src="https://user-images.githubusercontent.com/114960489/193991796-66ea36fb-4c5f-4f1b-b835-5b3084de2fee.png">
-
+<img width="381" alt="Screen Shot 1444-03-09 at 9 04 03 AM" src="https://user-images.githubusercontent.com/114960489/193992080-060da278-e925-4064-b91f-c9265f0b2bfc.png">
 
 
 but i use vol3 so maybe you will notice the command is not like yours
